@@ -190,7 +190,7 @@
 
                                 <div class="dropdown-menu dropdown-menu-end shadow border-0" style="border-radius: 12px;">
                                     @if(Auth::user()->role == 'admin')
-                                        <a class="dropdown-item" href="{{ route('admin.dashboard') }}">Dashboard Admin</a>
+                                        <a class="dropdown-item" href="{{ route('admin.dashboard') }}">Dashboard Admin admin</a>
                                     @else
                                         <a class="dropdown-item" href="{{ route('customer.dashboard') }}">Dashboard Saya</a>
                                     @endif
